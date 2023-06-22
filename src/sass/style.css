@@ -533,6 +533,9 @@ footer a:hover {
   .content_block {
     align-items: flex-start;
   }
+  .xs-visible {
+    display: none;
+  }
   .mobile_item {
     width: 290px;
   }
