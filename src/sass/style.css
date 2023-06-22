@@ -323,6 +323,7 @@ nav {
 .car .label {
   background-color: #fff;
   color: #070716;
+  text-align: center;
 }
 .car .title {
   margin-top: 32px;
@@ -412,6 +413,7 @@ nav {
 .world .label {
   background-color: #fff;
   color: #070716;
+  text-align: center;
 }
 .world .title {
   margin-top: 32px;
@@ -593,6 +595,9 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
   }
+  .content_logo {
+    margin-right: 0px;
+  }
   .mobile_title {
     font-size: 19px;
   }
@@ -715,5 +720,190 @@ footer a:hover {
   }
   .content_block {
     align-items: center;
+  }
+}
+@media (max-width: 575px) {
+  header {
+    height: 30px;
+  }
+  nav {
+    height: 30px;
+  }
+  .menu {
+    width: 72%;
+  }
+  .menu_link {
+    font-size: 15px;
+  }
+  .sub_header {
+    margin-top: 30px;
+    height: 60px;
+  }
+  .sub_header_logo {
+    margin-top: 22px;
+  }
+  .sub_header_official {
+    display: none;
+    margin-top: 54px;
+  }
+  .sub_header_btn {
+    margin-top: 5px;
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+  }
+  .xs-visible {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 30px;
+  }
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 24px;
+    line-height: 22px;
+  }
+  .promo_descr {
+    display: none;
+  }
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin: 72px auto 0 auto;
+    font-size: 16px;
+  }
+  .label {
+    width: 112px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .title {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    font-width: 900;
+  }
+  .content {
+    padding: 22px 0 36px 0;
+  }
+  .content_logo {
+    width: 100px;
+    height: 100px;
+  }
+  .content_block {
+    margin-top: 26px;
+  }
+  .content_descr {
+    width: 100%;
+    margin-top: 26px;
+  }
+  .content_subhead {
+    font-size: 16px;
+  }
+  .content_text {
+    font-size: 15px;
+  }
+  .mobile {
+    padding: 36px 0 43px 0;
+  }
+  .mobile_item {
+    width: 290px;
+    height: 254px;
+    margin: 30px auto 0 auto;
+  }
+  .mobile_item_subtitle {
+    margin: 0 40px 0 40px;
+    font-size: 18px;
+  }
+  .car {
+    padding: 25px 0 33px 0;
+    min-height: 390px;
+    background: black;
+  }
+  .car .black {
+    display: none;
+  }
+  .car .title {
+    display: none;
+  }
+  .car .subtitle {
+    display: none;
+  }
+  .car_uber {
+    margin-top: 35px;
+    width: 300px;
+    height: 190px;
+  }
+  .car_everyday {
+    color: #fff;
+    margin: 23px 34px 0 37px;
+    font-size: 17px;
+  }
+  .require {
+    padding: 25px 0 25px 0;
+  }
+  .require_title {
+    font-size: 16px;
+  }
+  .require_list {
+    margin-top: 8px;
+    padding-left: 32px;
+  }
+  .require_list li {
+    font-size: 14px;
+  }
+  .world {
+    min-height: 360px;
+    padding: 25px 0 30px 0;
+  }
+  .world_subtitle {
+    margin-top: 216px;
+  }
+  .world_subtitle_link {
+    width: 193px;
+    height: 14px;
+    font-size: 15px;
+  }
+  .footer {
+    padding: 25px 20px 20px 20px;
+  }
+  .footer_divider {
+    width: 253px;
+  }
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+  }
+  .footer_links_main {
+    padding: 0;
+  }
+  .footer_links_main a {
+    font-size: 14px;
+  }
+  .footer_links_sub {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer_links_sub a {
+    margin: 0 7px;
+  }
+  .footer_links_lang {
+    margin-top: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
